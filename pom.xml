@@ -8,7 +8,7 @@
     <version>7</version>
   </parent>
 
-  <groupId>com.raskasa.metrics</groupId>
+  <groupId>com.atlassian.pipelines</groupId>
   <artifactId>metrics-okhttp-parent</artifactId>
   <version>0.3.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -41,6 +41,19 @@
     <developerConnection>scm:git:git@github.com:raskasa/metrics-okhttp.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>atlassian-private</id>
+      <name>Atlassian Central Internal</name>
+      <url>https://maven.atlassian.com/content/repositories/atlassian-private/</url>
+    </repository>
+    <snapshotRepository>
+      <id>atlassian-private-snapshot</id>
+      <name>Atlassian Central Internal</name>
+      <url>https://maven.atlassian.com/content/repositories/atlassian-private-snapshot/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <issueManagement>
     <system>GitHub Issues</system>
