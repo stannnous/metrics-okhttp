@@ -17,7 +17,7 @@
       <artifactId>metrics-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.raskasa.metrics</groupId>
+      <groupId>com.atlassian.pipelines</groupId>
       <artifactId>metrics-okhttp</artifactId>
       <version>${project.version}</version>
     </dependency>
